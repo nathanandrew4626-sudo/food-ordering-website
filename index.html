@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Ordering Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Food Ordering Website</h1>
+    <p>Browse meals, add items to cart, and place your order easily.</p>
+    <button id="orderBtn">Start Order</button>
+  </header>
+
+  <main>
+    <section class="menu">
+      <h2>Popular Meals</h2>
+      <div class="food-card">
+        <h3>Chicken Burger</h3>
+        <p>Price: $12.00</p>
+        <button class="add-btn">Add to Cart</button>
+      </div>
+
+      <div class="food-card">
+        <h3>Pizza</h3>
+        <p>Price: $15.00</p>
+        <button class="add-btn">Add to Cart</button>
+      </div>
+
+      <div class="food-card">
+        <h3>Pasta</h3>
+        <p>Price: $14.00</p>
+        <button class="add-btn">Add to Cart</button>
+      </div>
+    </section>
+
+    <section class="cart">
+      <h2>Your Cart</h2>
+      <p id="cartMessage">No items added yet.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
